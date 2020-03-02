@@ -9,4 +9,4 @@ if (txt.includes(input)) {
       " GECENSUREERD " +
       txt.substring(txt.search(input) + input.length, txt.length)
   );
-}
+} else document.write("Dat woord vind ik niet!");
